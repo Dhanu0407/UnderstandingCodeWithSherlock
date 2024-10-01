@@ -1,0 +1,16 @@
+<div class="editor-container">
+    <ngx-monaco-editor [options]="editorOptions" [(ngModel)]="code" (ngModelChange)="onCodeChange($event)"></ngx-monaco-editor>
+  </div>
+  
+  <div class="output-container">
+    <div class="console">
+      <h3>Console Output:</h3>
+      <pre>{{ code }}</pre>
+    </div>
+  
+    <div class="description">
+      <h3>Code Description:</h3>
+      <p>{{ describeCode() }}</p>
+    </div>
+  </div>
+  

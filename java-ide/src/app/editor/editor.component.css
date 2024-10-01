@@ -1,0 +1,31 @@
+ngx-monaco-editor {
+    height: 500px;
+    width: 100%;
+  }
+  
+  .console {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+  }
+  
+  .editor-container {
+    width: 70%;
+    float: left;
+  }
+  
+  .output-container {
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+  }
+  
+  .description {
+    background-color: #222;
+    color: #9cdcfe;
+    padding: 10px;
+    height: 200px;
+  }
+  
